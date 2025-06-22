@@ -1,0 +1,20 @@
+2025-06-21 09:03:14,325 - INFO - MARL Trainer initialized
+2025-06-21 09:03:14,325 - INFO - Environment: {'width': 8, 'height': 8, 'num_agents': 2, 'max_packages': 3, 'package_spawn_rate': 0.2, 'max_steps': 100}
+2025-06-21 09:03:14,325 - INFO - Agents: {'learning_rate': 0.001, 'device': 'cpu'}
+2025-06-21 09:03:14,325 - INFO - Training: {'total_episodes': 20, 'update_frequency': 5, 'batch_size': 16, 'num_epochs': 2, 'eval_frequency': 10, 'save_frequency': 20, 'log_frequency': 5}
+2025-06-21 09:03:14,325 - INFO - Starting MARL training...
+2025-06-21 09:03:15,849 - INFO - Models saved with suffix: best
+2025-06-21 09:03:15,849 - INFO - Episode 0 - Evaluation: {'avg_reward': np.float64(-0.006615079365079257), 'std_reward': np.float64(0.3240331252176964), 'avg_length': np.float64(100.0), 'avg_deliveries': np.float64(0.0), 'avg_coordination': np.float64(0.11111111111111112), 'delivery_rate': np.float64(0.0)}
+2025-06-21 09:03:15,849 - INFO - Episode    0 | Reward:   -0.69 (avg:   -0.69) | Length: 100 | Deliveries:  0 | Coordination: 0.222 | Delivery Rate: 0.000
+2025-06-21 09:03:15,869 - INFO - Models saved with suffix: 0
+2025-06-21 09:03:18,216 - INFO - Episode    5 | Reward:    3.31 (avg:    3.08) | Length: 100 | Deliveries:  0 | Coordination: 0.204 | Delivery Rate: 0.000
+2025-06-21 09:03:21,730 - INFO - Models saved with suffix: best
+2025-06-21 09:03:21,730 - INFO - Episode 10 - Evaluation: {'avg_reward': np.float64(0.9099999999999995), 'std_reward': np.float64(1.137563062964959), 'avg_length': np.float64(100.0), 'avg_deliveries': np.float64(0.0), 'avg_coordination': np.float64(0.11111111111111112), 'delivery_rate': np.float64(0.0)}
+2025-06-21 09:03:21,730 - INFO - Episode   10 | Reward:  105.94 (avg:   13.82) | Length: 100 | Deliveries:  1 | Coordination: 0.189 | Delivery Rate: 0.033
+2025-06-21 09:03:23,998 - INFO - Episode   15 | Reward:   43.33 (avg:   17.44) | Length: 100 | Deliveries:  1 | Coordination: 0.189 | Delivery Rate: 0.067
+2025-06-21 09:03:25,727 - INFO - Models saved with suffix: final
+2025-06-21 09:03:25,728 - INFO - Training history saved to: test_results/training_history.json
+2025-06-21 09:03:25,728 - INFO - Training completed!
+2025-06-21 09:03:25,728 - INFO - Final evaluation: {'avg_reward': np.float64(0.5329707792207801), 'std_reward': np.float64(0.9048370596917306), 'avg_length': np.float64(100.0), 'avg_deliveries': np.float64(0.0), 'avg_coordination': np.float64(0.11111111111111112), 'delivery_rate': np.float64(0.0)}
+2025-06-21 09:03:25,728 - INFO - Starting demonstration with 1 episodes...
+2025-06-21 09:03:25,728 - INFO - Demonstration episode 1

@@ -1,0 +1,255 @@
+{
+  "summary": {
+    "total_tests": 9,
+    "timestamp": "2025-06-21T09:21:15.052183",
+    "best_throughput": {
+      "name": "Speed 50ms",
+      "steps_per_second": 19.999559412171916,
+      "config": {
+        "width": 12,
+        "height": 12,
+        "num_agents": 3,
+        "max_packages": 4,
+        "simulation_speed": 50
+      }
+    },
+    "best_latency": {
+      "name": "4 Agents",
+      "avg_latency_ms": 2.0113706588745117,
+      "config": {
+        "width": 12,
+        "height": 12,
+        "num_agents": 4,
+        "max_packages": 4,
+        "simulation_speed": 100
+      }
+    }
+  },
+  "results": [
+    {
+      "name": "Environment Size 8x8",
+      "config": {
+        "width": 8,
+        "height": 8,
+        "num_agents": 2,
+        "max_packages": 3,
+        "simulation_speed": 100
+      },
+      "throughput": {
+        "steps_per_second": 9.999655258619692,
+        "total_steps": 50,
+        "duration": 5.00017237663269
+      },
+      "latency": {
+        "avg_latency_ms": 2.215754985809326,
+        "min_latency_ms": 1.972198486328125,
+        "max_latency_ms": 2.892017364501953,
+        "median_latency_ms": 2.1669864654541016,
+        "p95_latency_ms": 2.892017364501953,
+        "successful_requests": 20,
+        "total_requests": 20
+      },
+      "timestamp": "2025-06-21T09:20:34.567806"
+    },
+    {
+      "name": "Environment Size 12x12",
+      "config": {
+        "width": 12,
+        "height": 12,
+        "num_agents": 3,
+        "max_packages": 4,
+        "simulation_speed": 100
+      },
+      "throughput": {
+        "steps_per_second": 9.999843123036028,
+        "total_steps": 50,
+        "duration": 5.000078439712524
+      },
+      "latency": {
+        "avg_latency_ms": 2.162337303161621,
+        "min_latency_ms": 2.0084381103515625,
+        "max_latency_ms": 2.3717880249023438,
+        "median_latency_ms": 2.130866050720215,
+        "p95_latency_ms": 2.3717880249023438,
+        "successful_requests": 20,
+        "total_requests": 20
+      },
+      "timestamp": "2025-06-21T09:20:39.625575"
+    },
+    {
+      "name": "Environment Size 16x16",
+      "config": {
+        "width": 16,
+        "height": 16,
+        "num_agents": 4,
+        "max_packages": 5,
+        "simulation_speed": 100
+      },
+      "throughput": {
+        "steps_per_second": 9.999754434893896,
+        "total_steps": 50,
+        "duration": 5.000122785568237
+      },
+      "latency": {
+        "avg_latency_ms": 2.7028322219848633,
+        "min_latency_ms": 2.1278858184814453,
+        "max_latency_ms": 3.380298614501953,
+        "median_latency_ms": 2.704739570617676,
+        "p95_latency_ms": 3.380298614501953,
+        "successful_requests": 20,
+        "total_requests": 20
+      },
+      "timestamp": "2025-06-21T09:20:44.694972"
+    },
+    {
+      "name": "2 Agents",
+      "config": {
+        "width": 12,
+        "height": 12,
+        "num_agents": 2,
+        "max_packages": 4,
+        "simulation_speed": 100
+      },
+      "throughput": {
+        "steps_per_second": 9.9998188051631,
+        "total_steps": 50,
+        "duration": 5.000090599060059
+      },
+      "latency": {
+        "avg_latency_ms": 2.4693965911865234,
+        "min_latency_ms": 2.1364688873291016,
+        "max_latency_ms": 3.1430721282958984,
+        "median_latency_ms": 2.414703369140625,
+        "p95_latency_ms": 3.1430721282958984,
+        "successful_requests": 20,
+        "total_requests": 20
+      },
+      "timestamp": "2025-06-21T09:20:49.759700"
+    },
+    {
+      "name": "3 Agents",
+      "config": {
+        "width": 12,
+        "height": 12,
+        "num_agents": 3,
+        "max_packages": 4,
+        "simulation_speed": 100
+      },
+      "throughput": {
+        "steps_per_second": 9.999784951066355,
+        "total_steps": 50,
+        "duration": 5.000107526779175
+      },
+      "latency": {
+        "avg_latency_ms": 2.909398078918457,
+        "min_latency_ms": 2.4018287658691406,
+        "max_latency_ms": 4.136323928833008,
+        "median_latency_ms": 2.8568506240844727,
+        "p95_latency_ms": 4.136323928833008,
+        "successful_requests": 20,
+        "total_requests": 20
+      },
+      "timestamp": "2025-06-21T09:20:54.833973"
+    },
+    {
+      "name": "4 Agents",
+      "config": {
+        "width": 12,
+        "height": 12,
+        "num_agents": 4,
+        "max_packages": 4,
+        "simulation_speed": 100
+      },
+      "throughput": {
+        "steps_per_second": 9.999611392818206,
+        "total_steps": 50,
+        "duration": 5.000194311141968
+      },
+      "latency": {
+        "avg_latency_ms": 2.0113706588745117,
+        "min_latency_ms": 1.9159317016601562,
+        "max_latency_ms": 2.2437572479248047,
+        "median_latency_ms": 1.9998550415039062,
+        "p95_latency_ms": 2.2437572479248047,
+        "successful_requests": 20,
+        "total_requests": 20
+      },
+      "timestamp": "2025-06-21T09:20:59.891216"
+    },
+    {
+      "name": "Speed 50ms",
+      "config": {
+        "width": 12,
+        "height": 12,
+        "num_agents": 3,
+        "max_packages": 4,
+        "simulation_speed": 50
+      },
+      "throughput": {
+        "steps_per_second": 19.999559412171916,
+        "total_steps": 100,
+        "duration": 5.000110149383545
+      },
+      "latency": {
+        "avg_latency_ms": 2.0523667335510254,
+        "min_latency_ms": 1.9168853759765625,
+        "max_latency_ms": 2.3097991943359375,
+        "median_latency_ms": 2.028226852416992,
+        "p95_latency_ms": 2.3097991943359375,
+        "successful_requests": 20,
+        "total_requests": 20
+      },
+      "timestamp": "2025-06-21T09:21:04.944813"
+    },
+    {
+      "name": "Speed 100ms",
+      "config": {
+        "width": 12,
+        "height": 12,
+        "num_agents": 3,
+        "max_packages": 4,
+        "simulation_speed": 100
+      },
+      "throughput": {
+        "steps_per_second": 9.999845507147583,
+        "total_steps": 50,
+        "duration": 5.000077247619629
+      },
+      "latency": {
+        "avg_latency_ms": 2.016723155975342,
+        "min_latency_ms": 1.9032955169677734,
+        "max_latency_ms": 2.246856689453125,
+        "median_latency_ms": 1.9854307174682617,
+        "p95_latency_ms": 2.246856689453125,
+        "successful_requests": 20,
+        "total_requests": 20
+      },
+      "timestamp": "2025-06-21T09:21:09.997910"
+    },
+    {
+      "name": "Speed 200ms",
+      "config": {
+        "width": 12,
+        "height": 12,
+        "num_agents": 3,
+        "max_packages": 4,
+        "simulation_speed": 200
+      },
+      "throughput": {
+        "steps_per_second": 4.999924422452835,
+        "total_steps": 25,
+        "duration": 5.000075578689575
+      },
+      "latency": {
+        "avg_latency_ms": 2.0706653594970703,
+        "min_latency_ms": 1.9066333770751953,
+        "max_latency_ms": 2.4678707122802734,
+        "median_latency_ms": 2.028226852416992,
+        "p95_latency_ms": 2.4678707122802734,
+        "successful_requests": 20,
+        "total_requests": 20
+      },
+      "timestamp": "2025-06-21T09:21:15.051942"
+    }
+  ]
+}

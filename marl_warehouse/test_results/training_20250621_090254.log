@@ -1,0 +1,5 @@
+2025-06-21 09:02:54,707 - INFO - MARL Trainer initialized
+2025-06-21 09:02:54,708 - INFO - Environment: {'width': 8, 'height': 8, 'num_agents': 2, 'max_packages': 3, 'package_spawn_rate': 0.2, 'max_steps': 100}
+2025-06-21 09:02:54,708 - INFO - Agents: {'learning_rate': 0.001, 'device': 'cpu'}
+2025-06-21 09:02:54,708 - INFO - Training: {'total_episodes': 20, 'update_frequency': 5, 'batch_size': 16, 'num_epochs': 2, 'eval_frequency': 10, 'save_frequency': 20, 'log_frequency': 5}
+2025-06-21 09:02:54,708 - INFO - Starting MARL training...

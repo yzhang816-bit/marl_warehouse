@@ -1,0 +1,408 @@
+/* Enhanced MARL System Styles */
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem 2rem;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header-content p {
+  margin: 0.5rem 0;
+  text-align: center;
+  opacity: 0.9;
+  font-size: 1.1rem;
+}
+
+.status-badges {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.badge {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.badge.active {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.connection-status {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.status-indicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.status-indicator.connected {
+  background: #4CAF50;
+  box-shadow: 0 0 10px #4CAF50;
+}
+
+.status-text {
+  margin-left: 1rem;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.main-content {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.left-panel {
+  flex: 1;
+}
+
+.right-panel {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.environment-section {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.environment-section h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.environment-info {
+  margin-bottom: 1.5rem;
+}
+
+.environment-info h4 {
+  color: #ff6b9d;
+  margin: 0 0 0.5rem 0;
+}
+
+.environment-info ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.environment-info li {
+  margin: 0.3rem 0;
+  opacity: 0.9;
+}
+
+.warehouse-canvas {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  background: white;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.legend-color.trail {
+  background: linear-gradient(45deg, rgba(128, 0, 128, 0.5), rgba(255, 165, 0, 0.5));
+}
+
+.environment-note {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  border-left: 4px solid #4CAF50;
+}
+
+.controls-section,
+.parameters-section,
+.metrics-section,
+.environment-status,
+.agent-status {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.controls-section h3,
+.parameters-section h3,
+.metrics-section h3,
+.environment-status h3,
+.agent-status h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+}
+
+.workflow-steps {
+  margin-bottom: 1.5rem;
+}
+
+.step {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  border-left: 3px solid rgba(255, 255, 255, 0.3);
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+}
+
+.control-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.control-btn {
+  position: relative;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.control-btn.training {
+  background: linear-gradient(45deg, #FF6B35, #F7931E);
+}
+
+.control-btn.trained {
+  background: linear-gradient(45deg, #4ECDC4, #44A08D);
+}
+
+.control-btn.reset {
+  background: linear-gradient(45deg, #3498DB, #2980B9);
+}
+
+.control-btn.pretrained {
+  background: linear-gradient(45deg, #9B59B6, #8E44AD);
+}
+
+.control-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.control-btn:active {
+  transform: translateY(0);
+}
+
+.control-btn.active {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-number {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.parameter-group {
+  margin: 1rem 0;
+}
+
+.parameter-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.parameter-group input[type="range"] {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.3);
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.parameter-group input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+.parameter-indicator {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.metrics-grid,
+.status-grid {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.metric,
+.status-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.8rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.metric-label {
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.metric-value {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.agent-info {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+}
+
+.agent-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.agent-name {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.agent-status-badge {
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.agent-status-badge.available {
+  background: rgba(76, 175, 80, 0.3);
+  color: #4CAF50;
+}
+
+.agent-status-badge.carrying {
+  background: rgba(255, 193, 7, 0.3);
+  color: #FFC107;
+}
+
+.agent-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .main-content {
+    flex-direction: column;
+  }
+  
+  .right-panel {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem;
+  }
+  
+  .header-content h1 {
+    font-size: 1.5rem;
+  }
+  
+  .status-badges {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .warehouse-canvas {
+    width: 100%;
+    height: auto;
+  }
+}
+

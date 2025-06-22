@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "total_tests": 8,
+    "passed": 8,
+    "failed": 0,
+    "start_time": "2025-06-21T09:19:07.264491",
+    "end_time": "2025-06-21T09:19:15.869014",
+    "total_duration": 8.604525
+  },
+  "tests": [
+    {
+      "test": "Backend Health",
+      "status": "PASS",
+      "message": "Backend is healthy",
+      "duration": 0.004845619201660156,
+      "timestamp": "2025-06-21T09:19:07.269465"
+    },
+    {
+      "test": "Session Creation",
+      "status": "PASS",
+      "message": "Session created: 3b6aaea8...",
+      "duration": 0.002980470657348633,
+      "timestamp": "2025-06-21T09:19:07.272580"
+    },
+    {
+      "test": "Session State",
+      "status": "PASS",
+      "message": "State valid: 2 agents, 3 packages",
+      "duration": 0.002450227737426758,
+      "timestamp": "2025-06-21T09:19:07.275145"
+    },
+    {
+      "test": "Simulation Control",
+      "status": "PASS",
+      "message": "Start/stop controls working",
+      "duration": 2.0074081420898438,
+      "timestamp": "2025-06-21T09:19:09.282643"
+    },
+    {
+      "test": "Simulation Steps",
+      "status": "PASS",
+      "message": "Stepped from 20 to 25",
+      "duration": 0.5273702144622803,
+      "timestamp": "2025-06-21T09:19:09.810097"
+    },
+    {
+      "test": "Agent Coordination",
+      "status": "PASS",
+      "message": "Avg: 0.505, Range: 0.505-0.505",
+      "duration": 5.044293165206909,
+      "timestamp": "2025-06-21T09:19:14.854573"
+    },
+    {
+      "test": "Performance Metrics",
+      "status": "PASS",
+      "message": "All metrics valid: 4 metrics",
+      "duration": 0.002407550811767578,
+      "timestamp": "2025-06-21T09:19:14.857064"
+    },
+    {
+      "test": "Reset Functionality",
+      "status": "PASS",
+      "message": "Simulation reset successfully",
+      "duration": 1.0116677284240723,
+      "timestamp": "2025-06-21T09:19:15.868805"
+    }
+  ]
+}
