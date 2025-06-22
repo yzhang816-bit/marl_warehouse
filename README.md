@@ -20,6 +20,8 @@ complete_marl_package/
 
 ## 🚀 Quick Start Options
 
+Ubuntu: Work
+
 ### Option 1: Standalone System (Recommended for Demo)
 
 **Easiest way to run - No installation required!**
@@ -86,7 +88,7 @@ complete_marl_package/
 
 2. **Install dependencies:**
    ```bash
-   npm install
+   npm install --legacy-peer-deps 
    # or
    pnpm install
    ```
