@@ -1,7 +1,7 @@
 # Complete Multi-Agent Reinforcement Learning System
 
 
-![Demo GIF](assets/demo.gif)
+![Demo GIF](demo_v2.gif)
 
 
 ## 🎯 Overview
